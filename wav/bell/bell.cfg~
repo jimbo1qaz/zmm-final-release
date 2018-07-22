@@ -1,0 +1,7 @@
+# BANK_00_INSTR_0064_SND_0000.wav
+dict(
+	at=67,
+	ratio='12000/32000',
+	loop=0x00001DC7,
+	truncate=0x00006A3F
+)
