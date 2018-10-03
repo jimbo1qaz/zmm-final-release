@@ -112,8 +112,8 @@
 #0
 ; t100
 t28 w255
-;  chan  L   R         t  fb  fir
-$EF $00 $30 $d0   $F1 $04 $C0 $01   ; echo
+;  chan  L   R        len fb  fir
+$EF $00 $30 $d0   $F1 $03 $C0 $01   ; echo
 ; $F4 $02     ; light staccato
 l1
 
