@@ -4,6 +4,7 @@ trap "kill 0" EXIT
 wine cmd >/dev/null &
 
 folder=../addmusick-1.1.0-beta/
+folder=../AddmusicK_1.0.6/
 NAME=zmm-final
 
 python -m amktools.wav2brr --verbose \

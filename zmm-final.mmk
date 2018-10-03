@@ -1,4 +1,4 @@
-#amk 3
+#amk 2
 
 ; %define falloff 5
 ; %define ratio 7/8
