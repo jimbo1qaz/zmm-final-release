@@ -24,11 +24,34 @@
 
 #samples
 {
+; sound effects
+    "../optimized/00 SMW @0.brr"
+    "../optimized/01 SMW @1.brr"
+    "../optimized/02 SMW @2.brr"
+    "../optimized/03 SMW @3.brr"
+    "../optimized/04 SMW @4.brr"
+    "../EMPTY.brr"
+   "../EMPTY.brr"
+    "../EMPTY.brr"
+    "../EMPTY.brr"
+    "../EMPTY.brr"
+    "../EMPTY.brr"
+    "../optimized/0B SMW @10.brr"
+    "../EMPTY.brr"
+    "../EMPTY.brr"
+    "../optimized/0E SMW @29.brr"
+    "../EMPTY.brr"
+    "../EMPTY.brr"
+    "../EMPTY.brr"
+    "../EMPTY.brr"
+    "../EMPTY.brr"
+
+; custom
     "strings.brr"
     "icelands.brr"
     "guitar.brr"
     "clack.brr"
-    "bell.brr"
+    ; "bell.brr"
     "../EMPTY.brr"
 }
 
@@ -42,7 +65,7 @@
     %tune "icelands.brr"    %gain up $08
     %tune "guitar.brr"      %adsr -1,-1,full,0
     %tune "clack.brr"       %adsr -1,-1,full,0
-    %tune "bell.brr"        %adsr -1,-1,full,$b
+    "../EMPTY.brr"      %adsr 4 -1 full 7 $00 $00
     "../EMPTY.brr"      %adsr 4 -1 full 7 $00 $00
 
 ;   "strings.brr"   $8F $E0 $00 $02 $1b
@@ -86,7 +109,7 @@
 "DECAY=(!1, kon)(!3, koff)"         ; restore on keyon, decay on keyoff
 "RELEASE=(!3, now)"
 
-"BEGIN=r8"
+"BEGIN="
 #0
 ; t100
 t28 w255
