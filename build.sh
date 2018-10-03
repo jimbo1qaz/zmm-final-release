@@ -15,7 +15,8 @@ cp $NAME.txt $folder/music/$NAME.txt
 cd $folder
 echo 01 $NAME.txt> Trackmusic_list.txt
 
-wine addmusick -m -noblock
+# wine addmusick -m -noblock
+wine addmusick -noblock -norom $NAME.txt
 vlc SPCs/$NAME.spc
 # wine start "" SPCs/$NAME.spc
 kill %1
