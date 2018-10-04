@@ -9,7 +9,7 @@ NAME=zmm-final
 
 txt="$NAME.txt"
 python -m amktools.wav2brr --verbose \
-	"wav" $folder "idol1 final hours" || exit
+	"wav" $folder "zmm-final" || exit
 python -m amktools.mmkparser $NAME.mmk -o "$txt" || exit
 unix2dos "$txt"
 cp "$txt" "$folder/music/$txt"

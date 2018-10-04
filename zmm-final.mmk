@@ -20,7 +20,7 @@
     #comment "shoutouts to ppl with depression"
 }
 
-#path "idol1 final hours"
+#path "zmm-final"
 
 #samples
 {

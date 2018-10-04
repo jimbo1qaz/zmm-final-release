@@ -5,7 +5,7 @@ set folder=..\addmusick-1.1.0-beta\
 set NAME=zmm-final
 
 python -m amktools.wav2brr --verbose ^
-	"wav" %folder% "idol1 final hours" || goto :eof
+	"wav" %folder% "zmm-final" || goto :eof
 python -m amktools.mmkparser %NAME%.mmk -o %NAME%.txt || goto :eof
 copy %NAME%.txt %folder%\music\%NAME%.txt
 

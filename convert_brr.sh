@@ -6,7 +6,7 @@ wine cmd >/dev/null &
 python -m amktools.wav2brr --verbose \
 	"wav" \
 	"../addmusick-1.1.0-beta" \
-	"idol1 final hours" || exit
+	"zmm-final" || exit
 
 kill %1
 #!/usr/bin/env zsh
