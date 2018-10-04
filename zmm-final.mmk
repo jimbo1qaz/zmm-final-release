@@ -17,7 +17,6 @@
     #title  "Final Hours"
     #game   "Zelda - Majora's Mask"
     #author "nobody1089"
-    #comment "shoutouts to ppl with depression"
 }
 
 #path "zmm-final"
