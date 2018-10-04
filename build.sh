@@ -20,6 +20,21 @@ echo 01 "$txt"> Trackmusic_list.txt
 
 # wine addmusick -m -noblock
 wine addmusick -noblock -norom "$txt"
+kill %1
+
+zip=`readlink -f "zmm-final no bell, sfx compatible.zip"`
+
+rm "$zip"
+
+pushd samples
+7z a "$zip" "$NAME/*.brr"
+popd
+pushd music
+7z a "$zip" "$txt"
+popd
+pushd SPCs
+7z a "$zip" "$NAME.spc"
+popd
+
 vlc SPCs/$NAME.spc
 # wine start "" SPCs/$NAME.spc
-kill %1
