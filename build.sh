@@ -19,7 +19,8 @@ cd $folder
 echo 01 "$txt"> Trackmusic_list.txt
 
 # wine addmusick -m -noblock
-wine addmusick -noblock -norom "$txt"
+# wine addmusick -noblock -norom "$txt"
+wine addmusick -noblock "behead.sfc"
 kill %1
 
 zip=`readlink -f "zmm-final no bell, sfx compatible.zip"`
