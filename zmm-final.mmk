@@ -17,6 +17,7 @@
     #title  "Final Hours"
     #game   "Zelda - Majora's Mask"
     #author "nobody1089"
+    #comment "Original by Koji Kondo"
 }
 
 #path "zmm-final"
